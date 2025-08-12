@@ -3,7 +3,7 @@
 #define ADC_PIN WB_IO4 // A2 
 #define SAMPLES 2000 // range 1000 ~ 4000
 #define CAL_SAMPLES 2000
-#define CAL_VOLTAGE 127.0   // input voltage for calibrate the sens parameter 
+#define CAL_VOLTAGE 127.0   // input voltage to calibrate the sens parameter 
 
 ZMPT101B voltageSensor(ADC_PIN);
 
